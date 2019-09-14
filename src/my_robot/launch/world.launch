@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <launch>
 
   <!--Robot pose -->
-  <arg name="x" default="0.3"/>
-  <arg name="y" default="1.4"/>
+  <arg name="x" default="-5.0"/>
+  <arg name="y" default="-5.0"/>
   <arg name="z" default="0"/>
   <arg name="roll" default="0.0"/>
   <arg name="pitch" default="0.0"/>
@@ -14,7 +13,7 @@
   <include file="$(find my_robot)/launch/robot_description.launch"/>
 
   <!-- World File -->
-  <arg name="world_file" default="$(find my_robot)/world/myworld.world"/>
+  <arg name="world_file" default="$(find my_robot)/world/myworld2.world"/>
 
   <!-- Launch Gazebo World -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">

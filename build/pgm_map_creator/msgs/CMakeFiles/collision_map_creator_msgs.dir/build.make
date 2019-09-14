@@ -60,7 +60,7 @@ include pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/flags.mak
 pgm_map_creator/msgs/collision_map_request.pb.cc: /home/workspace/catkin_ws/src/pgm_map_creator/msgs/collision_map_request.proto
 pgm_map_creator/msgs/collision_map_request.pb.cc: /usr/bin/protoc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/workspace/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running C++ protocol buffer compiler on collision_map_request.proto"
-	cd /home/workspace/catkin_ws/build/pgm_map_creator/msgs && /usr/bin/protoc --cpp_out /home/workspace/catkin_ws/build/pgm_map_creator/msgs -I /home/workspace/catkin_ws/src/pgm_map_creator/msgs /home/workspace/catkin_ws/src/pgm_map_creator/msgs/collision_map_request.proto
+	cd /home/workspace/catkin_ws/build/pgm_map_creator/msgs && /usr/bin/protoc --cpp_out /home/workspace/catkin_ws/build/pgm_map_creator/msgs -I /home/workspace/catkin_ws/src/pgm_map_creator/msgs -I /usr/include/gazebo-7/gazebo/msgs/proto /home/workspace/catkin_ws/src/pgm_map_creator/msgs/collision_map_request.proto
 
 pgm_map_creator/msgs/collision_map_request.pb.h: pgm_map_creator/msgs/collision_map_request.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate pgm_map_creator/msgs/collision_map_request.pb.h
@@ -68,7 +68,7 @@ pgm_map_creator/msgs/collision_map_request.pb.h: pgm_map_creator/msgs/collision_
 pgm_map_creator/msgs/vector2d.pb.cc: /home/workspace/catkin_ws/src/pgm_map_creator/msgs/vector2d.proto
 pgm_map_creator/msgs/vector2d.pb.cc: /usr/bin/protoc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/workspace/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running C++ protocol buffer compiler on vector2d.proto"
-	cd /home/workspace/catkin_ws/build/pgm_map_creator/msgs && /usr/bin/protoc --cpp_out /home/workspace/catkin_ws/build/pgm_map_creator/msgs -I /home/workspace/catkin_ws/src/pgm_map_creator/msgs /home/workspace/catkin_ws/src/pgm_map_creator/msgs/vector2d.proto
+	cd /home/workspace/catkin_ws/build/pgm_map_creator/msgs && /usr/bin/protoc --cpp_out /home/workspace/catkin_ws/build/pgm_map_creator/msgs -I /home/workspace/catkin_ws/src/pgm_map_creator/msgs -I /usr/include/gazebo-7/gazebo/msgs/proto /home/workspace/catkin_ws/src/pgm_map_creator/msgs/vector2d.proto
 
 pgm_map_creator/msgs/vector2d.pb.h: pgm_map_creator/msgs/vector2d.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate pgm_map_creator/msgs/vector2d.pb.h
@@ -76,7 +76,7 @@ pgm_map_creator/msgs/vector2d.pb.h: pgm_map_creator/msgs/vector2d.pb.cc
 pgm_map_creator/msgs/header.pb.cc: /home/workspace/catkin_ws/src/pgm_map_creator/msgs/header.proto
 pgm_map_creator/msgs/header.pb.cc: /usr/bin/protoc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/workspace/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running C++ protocol buffer compiler on header.proto"
-	cd /home/workspace/catkin_ws/build/pgm_map_creator/msgs && /usr/bin/protoc --cpp_out /home/workspace/catkin_ws/build/pgm_map_creator/msgs -I /home/workspace/catkin_ws/src/pgm_map_creator/msgs /home/workspace/catkin_ws/src/pgm_map_creator/msgs/header.proto
+	cd /home/workspace/catkin_ws/build/pgm_map_creator/msgs && /usr/bin/protoc --cpp_out /home/workspace/catkin_ws/build/pgm_map_creator/msgs -I /home/workspace/catkin_ws/src/pgm_map_creator/msgs -I /usr/include/gazebo-7/gazebo/msgs/proto /home/workspace/catkin_ws/src/pgm_map_creator/msgs/header.proto
 
 pgm_map_creator/msgs/header.pb.h: pgm_map_creator/msgs/header.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate pgm_map_creator/msgs/header.pb.h
@@ -84,7 +84,7 @@ pgm_map_creator/msgs/header.pb.h: pgm_map_creator/msgs/header.pb.cc
 pgm_map_creator/msgs/time.pb.cc: /home/workspace/catkin_ws/src/pgm_map_creator/msgs/time.proto
 pgm_map_creator/msgs/time.pb.cc: /usr/bin/protoc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/workspace/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Running C++ protocol buffer compiler on time.proto"
-	cd /home/workspace/catkin_ws/build/pgm_map_creator/msgs && /usr/bin/protoc --cpp_out /home/workspace/catkin_ws/build/pgm_map_creator/msgs -I /home/workspace/catkin_ws/src/pgm_map_creator/msgs /home/workspace/catkin_ws/src/pgm_map_creator/msgs/time.proto
+	cd /home/workspace/catkin_ws/build/pgm_map_creator/msgs && /usr/bin/protoc --cpp_out /home/workspace/catkin_ws/build/pgm_map_creator/msgs -I /home/workspace/catkin_ws/src/pgm_map_creator/msgs -I /usr/include/gazebo-7/gazebo/msgs/proto /home/workspace/catkin_ws/src/pgm_map_creator/msgs/time.proto
 
 pgm_map_creator/msgs/time.pb.h: pgm_map_creator/msgs/time.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate pgm_map_creator/msgs/time.pb.h

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <launch>
 
   <!--Robot pose -->
-  <arg name="x" default="-5.0"/>
-  <arg name="y" default="-5.0"/>
+  <arg name="x" default="-8.0"/>
+  <arg name="y" default="-8.0"/>
   <arg name="z" default="0"/>
   <arg name="roll" default="0.0"/>
   <arg name="pitch" default="0.0"/>
